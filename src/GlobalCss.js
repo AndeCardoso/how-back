@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalCss = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
     *,
     ::before,
     ::after {
@@ -15,8 +17,7 @@ export const GlobalCss = createGlobalStyle`
     }
 
     body {
-        background-color: #36357E;
-        font: 100%/1.5rem 'Work Sans';
+        font-family: 'Montserrat', Calibri;
     }
 
     a {

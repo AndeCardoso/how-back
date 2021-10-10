@@ -4,6 +4,8 @@ import { Image } from '../dumb/button/styled';
 export const Header = styled.header`
     height: 10vh;
     width: 100%;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,4 +34,8 @@ export const Menu = styled.nav`
 
 export const LogoButton = styled(Image)`
     margin-left: 15px;
+`;
+
+export const MenuBurger = styled.div`
+    border: none;
 `;
