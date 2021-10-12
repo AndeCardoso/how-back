@@ -1,10 +1,12 @@
 import * as S from './styled'
 
-const Card = ({ title, description }) => {
+const Card = ({ title, description, icon }) => {
     return (
         <S.Container>
+            <S.Icon>
+                {icon}
+            </S.Icon>
             <S.Text>
-                <S.Title>{title}</S.Title>
                 <S.Description>{description}</S.Description>
             </S.Text>
         </S.Container>

@@ -9,7 +9,8 @@ export const Header = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FE4400;
+    background-color: #ffffff;
+    z-index: 9999;
 `;
 
 export const Container = styled.div`
@@ -20,6 +21,7 @@ export const Container = styled.div`
 
     @media (max-width: 1200px) {
         width: 100%;
+        justify-content: space-around;
     }
 `;
 

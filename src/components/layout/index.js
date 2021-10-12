@@ -1,14 +1,14 @@
 import * as S from './styled'
 import Header from '../header'
 import Main from '../main';
-// import Footer from '../footer';
+import Footer from '../footer';
 
 const Layout = () => {
     return (
         <S.Container>
             <Header />
             <Main />
-            {/* <Footer /> */}
+            <Footer />
         </S.Container>
     )
 }

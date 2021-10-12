@@ -5,21 +5,26 @@ import Illustration from '../../../images/illustration01.svg';
 import * as S from './styled';
 
 const Informations = () => {
+    
     return (
         <S.Section id="informations">
             <S.Container>
                 <Image path={Illustration} type='Illustration' />
                 <S.Content>
-                    <S.Title>Informações</S.Title>
+                    <S.Title>Como voltar?</S.Title>
                     <S.Paragraph>
-                    Lorem ipsum dolor sit amet. Ea autem mollitia et voluptatem voluptatum qui veniam unde est earum perspiciatis ex omnis voluptate sed expedita similique eos atque sunt. In mollitia omnis qui dolor animi et vitae optio.
-
-                    Vel reprehenderit quia sit distinctio aut molestiae eveniet qui dolorem nostrum. Et culpa perferendis non velit dolor sit ullam autem aut numquam illo ea assumenda temporibus. Sit tempora maiores hic alias voluptas aut maiores reiciendis nam tempora quisquam sed voluptatem sunt! Ut aperiam ipsam qui molestiae iure et labore omnis aut ratione placeat.
-
-                    Est ratione exercitationem est omnis voluptas est minima voluptate sit exercitationem temporibus aut consequatur rerum ex ipsum voluptatibus et dolores doloribus? A pariatur ipsam aut magni illum aut quod voluptates.
+                    Os escritórios voltarão a ficar abertos no horário das 8h às 18h, e os 2 escritórios: um em São Paulo (principal) e outro em Santos (filial),
+                    estarão disponíveis para o acesso.
+                    <br />
+                    <br />
+                    Para tornar ainda mais seguro a sua volta ao trabalho presencial, desenvolvemos a Agenda FCamara,
+                    um sistema web para você agendar sua ida ao escritório de sua preferência da forma mais simples e rápida possível.
+                    <br />
+                    <br />
+                    Você pode acessar o sistema através do botão abaixo.
                     </S.Paragraph>
                     <S.Buttons>
-                        <Button to="/" >+Informações</Button>
+                        <Button to="https://github.com/AndeCardoso/fcamara-agenda" >Agenda FCamara</Button>
                     </S.Buttons>
                 </S.Content>
             </S.Container>

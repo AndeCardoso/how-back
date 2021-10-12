@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import bg from '../../../images/bg.png'
+import bg from '../../../images/bg.svg'
 
 export const Section = styled.section`
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     padding: 100px 0 30px;
     display: flex;
     justify-content: center;
@@ -44,6 +44,7 @@ export const Container = styled.div`
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
     
     @media screen and (max-width: 1200px) {
         align-items: center;
@@ -51,11 +52,13 @@ export const Content = styled.div`
 `;
 
 export const Title = styled.h2`
+    padding: 15px;
     font-size: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     text-align: center;
     line-height: normal;
-    text-shadow:3px 3px 10px #000000, 3px 3px 10px #000000;
+    border-radius: 50px 0 50px 50px;
+    background-color: #FE4400;
 `;
 
 export const Text = styled.p`
@@ -64,8 +67,13 @@ export const Text = styled.p`
     line-height: normal;
     text-shadow:3px 3px 10px #000000, 3px 3px 10px #000000;
 
+    span {
+        text-transform: uppercase;
+        color: #FE4400;
+        margin: 0 10px;
+    }
+
     @media screen and (max-width: 1200px) {
-        align-items: center;
-        text-align: center;
+        margin: 0 25px;
     }
 `;

@@ -2,11 +2,25 @@ import * as S from './styled'
 
 const Home = () => {
     return (
-        <S.Section>
-            <S.Container id="home">
+        <S.Section id="home">
+            <S.Container>
                 <S.Content>
                     <S.Title>Gostaria de voltar?!</S.Title>
-                    <S.Text>Lorem ipsum dolor sit amet. Ea autem mollitia et voluptatem voluptatum qui veniam unde est earum perspiciatis ex omnis voluptate sed expedita similique eos atque sunt. In mollitia omnis qui dolor animi et vitae optio. Vel reprehenderit quia sit distinctio aut molestiae eveniet qui dolorem nostrum. Et culpa perferendis non velit dolor sit ullam autem aut numquam illo ea assumenda temporibus. Sit tempora maiores hic alias voluptas aut maiores reiciendis nam tempora quisquam sed voluptatem sunt! Ut aperiam ipsam qui molestiae iure et labore omnis aut ratione placeat. Est ratione exercitationem est omnis voluptas est minima voluptate sit exercitationem temporibus aut consequatur rerum ex ipsum voluptatibus et dolores doloribus? A pariatur ipsam aut magni illum aut quod voluptates.</S.Text>
+                    <S.Text>
+                        Com a Pandemia da Covid-19, muita coisa mudou. O trabalho remoto não foi 
+                        uma opção, mas sim necessário e assim se foram quase 2 anos de home 
+                        office.
+                        <br />
+                        Porém, hoje com a vacinação em andamento, já podemos enxergar 
+                        novas possibilidades, e aqui na FCamara não é diferente, com muito cuidado 
+                        e segurança estamos planejando a reabertura da nossa empresa.
+                        <br />
+                        <br />
+                        E claro, este retorno só será para aqueles que <span>desejarem voltar</span> ao trabalho presencial!
+                        <br />
+                        <br />
+                        Estamos muito felizes com essa novidade, mas sabemos que não será como antes.
+                    </S.Text>
                 </S.Content>
             </S.Container>
         </S.Section>
