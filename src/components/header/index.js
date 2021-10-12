@@ -18,13 +18,14 @@ const Header = () => {
         <S.Header>
             <S.Container>
                 <Image type="Logo" path={Logo} to='#' />
-                <div ref={node}>
+                <S.MenuBurger ref={node}>
                     <Burger open={open} setOpen={setOpen} />
                     <Menu open={open} setOpen={setOpen} />
-                </div>
+                </S.MenuBurger>
                 <S.Menu>
-                    <Link to='#home'>Home</Link>
+                    <Link to='#home'>Inicio</Link>
                     <Link to='#informations'>Informações</Link>
+                    <Link to='#rules'>Regras</Link>
                 </S.Menu>
             </S.Container>
         </S.Header>

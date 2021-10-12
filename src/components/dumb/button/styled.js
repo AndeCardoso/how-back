@@ -53,7 +53,7 @@ export const Image = styled.img`
 `;
 
 export const Logo = styled.img`
-    height: 35px;
+    height: 50px;
     cursor: pointer;
     transition: ease-in-out all 1s;
 `;
